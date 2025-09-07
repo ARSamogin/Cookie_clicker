@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cookie{
+    width: 300px;
+    height: auto;
+}
+
+#cookie:active{
+    transform: scale(1.1);
+}
+
+.counter_div{
+    font-family: Helvetica;
+    text-align: center;
+}
+
+#counter{
+    font-family: Helvetica;
+    font-size: 4em;
+}
+
+#double{
+    padding: 2em;
+    border: 0;
+    border-style: solid;
+    border-radius: 20px;
+    font-family: Helvetica;
+    font-size: 1em;
+}
